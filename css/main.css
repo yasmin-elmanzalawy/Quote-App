@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.main-section{
+    background-image: linear-gradient(rgba(204, 178, 46, 0.5), rgba(0,0,0,0.8)) , url(../img/339f87f8ee415af5aaa648ddb595164e.jpeg) ;
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    font-family: "Merienda", cursive;
+    color: rgb(255, 252, 235) ;
+    background-color:rgba(98, 84, 15, 0.8) ;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+h2{
+    font-family: "Merienda", cursive;
+    color: rgb(249, 248, 243) ;
+}
+p , button{
+    color:rgb(255, 252, 235) ;
+    font-family: "Gruppo", sans-serif;
+    letter-spacing: 2px;
+
+}
+#quoteHtml{
+    height: 70px;
+}
+button{
+    border:3px solid rgba(204, 178, 46, 0.6);
+    border-radius: 10px;
+    background-color: transparent;
+    padding:5px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+button:hover{
+    font-size: 18px;
+    background-color:rgba(98, 84, 15, 0.8) ;
+    
+}
